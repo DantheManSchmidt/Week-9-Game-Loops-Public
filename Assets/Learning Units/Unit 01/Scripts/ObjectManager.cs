@@ -16,10 +16,12 @@ public class ObjectManager : MonoBehaviour
         objectMover = GetComponent<MoveObjects>();
         objectMover.ObjectsToMove = objects;
         objectMover.StartMovement();
-        
+
     }
     // Start is called before the first frame update
     void Start()
     {
+        
+
     }
 }

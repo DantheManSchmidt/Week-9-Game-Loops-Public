@@ -13,11 +13,12 @@ public class MovementWatcher : MonoBehaviour
     [SerializeField] MoveOneByOne moveOneByOne;
 
     Vector3 startingPosition;
-
     // Start is called before the first frame update
     void Start()
     {
-        moveOneByOne.MoveNextObject();
+        
+       
+   
     }
 
     // Update is called once per frame
@@ -28,12 +29,12 @@ public class MovementWatcher : MonoBehaviour
 
     void OnEnable()
     {
-        
+        moveOneByOne.MoveNextObject();
     }
 
     void OnDisable()
     {
-
+        moveOneByOne.MoveNextObject();
     }
     void OnApplicationQuit()
     {
